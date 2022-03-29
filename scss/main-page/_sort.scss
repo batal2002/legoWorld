@@ -1,0 +1,64 @@
+.sort {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+
+    &__wrapper{
+        *{
+            user-select: none;
+        }
+    }
+
+    &__title {
+        @media (max-width: 575.98px) {
+            display: none;       
+        }
+    }
+    &__header {
+        width: 185px;
+        padding: 5px 10px;
+
+        background-image: url('../img/svg/sort-arrow.svg');
+        background-repeat: no-repeat;
+        background-position: 95% center;
+
+        border: 1px solid $colorGrey;
+        border-radius: 15px;
+
+        cursor: pointer;
+        &.--active{
+            border-radius: 15px 15px 0 0;
+        }
+    }
+
+    &__list {
+        position: absolute;
+
+        display: none;
+
+        background-color: $colorWhite;
+        border: 1px solid $colorGrey;
+        border-radius: 0 0 15px 15px;
+        
+        cursor: pointer;
+        &.--active {
+            display: block;
+
+            border-top: none;
+        }
+    }
+
+    &__item {
+        width: 183px;
+        padding: 5px 10px;
+        &:last-of-type {
+            border-radius: 0 0 14px 14px;
+        }
+        &:hover{
+            background-color: $colorGrey;
+        }
+    }
+}

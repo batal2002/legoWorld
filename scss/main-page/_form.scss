@@ -1,0 +1,41 @@
+.form {
+    display: none;
+    max-width: 400px;
+    width: 100%;
+    padding: 50px;
+
+    background-color: #fff;
+    border-radius: 15px;
+    &.--active {
+        display: block;
+    }
+    &.--hidden {
+        display: none;
+    }
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 15px 0;
+
+        border-radius: 5px;
+        background-color: rgba(196, 196, 196, 0.5);
+        box-shadow: -0.2em 0.2em 5px rgba(122,122,122,0.2);
+        border: 1px solid $colorGrey;
+
+        transition: 0.3s;
+        &:focus {
+            outline: none;
+            box-shadow: -0.2em 0.2em 5px rgba(122,122,122,0.1);
+        } 
+    }
+    &__if {
+        margin-top: 10px;
+        text-align: center;
+        span {
+            color: $colorYellow;
+            text-decoration: underline;
+
+            cursor: pointer;
+        }
+    }
+}

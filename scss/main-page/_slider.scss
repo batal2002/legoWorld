@@ -1,0 +1,137 @@
+    .slider {
+        margin-top: 50px;
+        @media (max-width: 575.98px) {
+            margin-top: 0;
+        }
+
+        &__sale {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1;
+
+            padding: 8px 17px;
+            border-radius: 15px;
+            background-color: $colorRed;
+
+            font-weight: 900;
+            font-size: 30px;
+            color: $colorWhite;
+        }
+
+        &__item {
+            display: flex !important;
+            align-items: center;
+            padding: 20px;
+            height: 290px !important;
+            
+            @media (max-width: 575.98px) {
+                flex-direction: column;
+                height: 360px !important;
+            }
+        }
+
+        &__img {
+            height: auto;
+            max-width: 45%;
+            margin-right: 10px;
+            @media (max-width: 575.98px) {
+                max-width: 200px;
+                width: auto;
+                max-height: 160px;
+                margin-right: 0;
+            }
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            height: 100%;
+            @media (max-width: 575.98px) {
+                text-align: center;
+                width: 80%;
+            }
+            
+        }
+        &__id {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        &__name {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 22px;
+            color: $colorRed;
+
+            @media (max-width: 575.98px) {
+                line-height: 100%;
+                font-size: 22px;
+            }
+        }
+
+        &__cost {
+            @media (max-width: 575.98px) {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+            }
+        }
+
+        &__old {
+            height: 20px;
+            font-size: 20px;
+            
+            color: $colorGrey;
+            text-decoration: line-through;
+        }
+
+        &__new {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 20px;
+            @media (max-width: 575.98px) {
+                line-height: 100%;
+                font-size: 22px;
+            }
+        }
+
+        &__description {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            height: 55px;
+            margin: 10px 0;
+
+            text-overflow: ellipsis;
+            font-size: 13px;
+            line-height: 14px;
+            @media (max-width: 575.98px) {
+                display: none;
+            }
+        }
+
+        &__button {     
+            display: inline-block;
+            width: 100%;  
+            padding: 15px;
+
+            text-align: center;
+            font-size: 13px;
+
+            border: 2px solid $colorRed;
+            border-radius: 5px;
+            background-color: $colorRed;
+            color: #FFFFFF;
+            
+            transition: 0.1s;
+            &:hover {
+                background-color: $colorWhite;
+                color: $colorRed;
+                border: 2px solid $colorRed;
+            }
+        }
+    }

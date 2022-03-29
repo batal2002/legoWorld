@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="icon" type="image/png" href="img/png/lego.png">
+    <title>LegoWorld</title>
+</head>
+<body>
+    <div class="overlay"></div>
+
+    <nav>
+        <div class="container">
+            <div class="nav">
+                <div class="nav__burger">
+                    <span class="nav__span"></span>
+                </div>
+                <div class="nav__wrapper">
+                    <a href="#" class="nav__map">
+                        <img src="img/svg/map.svg" alt="geo">
+                        <span>Санкт-Петербург и ЛО</span>
+                    </a>
+                    
+                    <ul class="nav__navbar">
+                        <li><a href="#" class="nav__link">Магазины</a></li>
+                        <li><a href="#" class="nav__link">Доставка и оплата</a></li>
+                        <li><a href="#" class="nav__link">Акции</a></li>
+                        <li><a href="#" class="nav__link">Обратная связь</a></li>
+                        <li><a href="#" class="nav__link">Новинки</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section__hero">
+        <div class="container">
+            <header class="header">
+                <a href="#" class="header__logo">
+                    <img src="img/svg/logo.svg" alt="LEGO WORLD">
+                </a>
+                <div class="header__wrapper">
+                    <div class="header__search">
+                        <input type="text" placeholder="Поиск" class="header__input" >
+                        <button href="#" class="circle-btn header__search-btn"></button>
+                    </div>
+                    <div class="header__user">
+                        <button href="#" class="circle-btn header__cart">
+                            <span class="header__counter">0</span>
+                        </button>
+                        <button href="#" class="circle-btn header__login"></button>
+                    </div>
+                </div>
+                <form class="header__form form" data-modal="login">
+                    <p>Логин</p>
+                    <input type="text" placeholder="Логин">
+                    <p>Пароль</p>
+                    <input type="password" placeholder="Пароль">
+                    <button class="btn form__btn">Войти</button>
+                    <p class="form__if">Если у вас еще нет аккаунта <span class="form__change">зарегестрируйтесь</span></p>
+                </form>
+                <form class="header__form form --hidden" data-modal="reg">
+                    <p>Логин</p>
+                    <input type="text" placeholder="Логин">
+                    <p>Пароль</p>
+                    <input type="password" placeholder="Пароль">
+                    <p>Повторите пароль</p>
+                    <input type="password" placeholder="Пароль">
+                    <button class="btn form__btn">Зарегестрироваться</button>
+                    <p class="form__if">Если у вас уже есть аккаунт <span class="form__change">войдите</span></p>
+                </form>
+            </header>
+
+            <div class="hero">
+                <div class="hero__wrapper">
+                    <div class="hero__slider slider"></div>
+                    <span class="slider__sale">SALE</span>
+                    <div class="hero__buttons"></div>
+                    <div class="hero__dots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__main">
+        <div class="container">
+            <div class="main">
+                <div class="main__top-line">
+                    <div class="filter__icon">
+                        <img src="img/png/filter.png" alt="filter" class="filter__img">
+                    </div>
+
+                    <div class="sort">
+                        <span class="sort__title">Упорядочить:</span>
+                        <div class="sort__wrapper">
+                            <div class="sort__header">
+                                <span class="sort__select">Сначала дорогие</span>
+                            </div>
+                            <div class="sort__list">
+                                <div class="sort__item">Сначала дешевые</div>   
+                                <div class="sort__item">Сначала дорогие</div>
+                                <div class="sort__item">По размеру скидки</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__wrapper">
+                    <div class="main__filter filter">
+                        <div class="filter__section">
+                            <span class="filter__title">Серия товара</span>
+                            <div class="filter__list">
+                                <div class="filter__category">
+                                    <img src="img/svg/Technic_logo.svg" alt="Technic">
+                                </div>
+                                <div class="filter__category">
+                                    <img src="img/svg/Lego_Star_Wars_Logo.svg" alt="Star Wars">
+                                </div>
+                                <div class="filter__category">
+                                    <img src="img/png/Lego_City_logo.png" alt="City">
+                                </div>
+                                <div class="filter__category">
+                                    <img src="img/png/LSH-Marvel-Logo-2018.png" alt="Super Heroes">
+                                </div>
+                                <div class="filter__category">
+                                    <button class="btn filter__btn">Все конструкторы</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter__section">
+                            <div class="filter__title">
+                                <span>Цена</span>
+                                <input type="text">
+                                <span>-</span>
+                                <input type="text">
+                            </div>
+                            <input type="range" min="0" max="300" value="10" class="filter__trackbar"/>
+                        </div>
+                    </div>
+                    <div class="main__list"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__content">
+                    <div class="footer__wrapper">
+                        <ul class="footer__list">
+                            <li class="footer__title">
+                                <a href="#" class="footer__logo">
+                                    <img src="img/svg/logo.svg" alt="LEGO WORLD">
+                                </a>
+                            </li>
+                            <li class="footer__link"><a href="#">О проекте</a></li>
+                            <li class="footer__link"><a href="#">Контакты</a></li>
+                            <li class="footer__link"><a href="#">Реклама</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__title">Мы в сосоцсетях</li>
+                            <li class="footer__link"><a href="#">Facebook</a></li>
+                            <li class="footer__link"><a href="#">ВКонтакте</a></li>
+                            <li class="footer__link"><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                    <span class="footer__copyrigth">© LEGO WORLD, 2021 - 2022</span>
+                </div>
+                <div class="footer__bg"><img src="img/png/lego_footer.png" alt="" class="footer__img"></div>
+            </div>
+        </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
