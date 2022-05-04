@@ -1,0 +1,157 @@
+.cart {
+    position: fixed;
+    z-index: 100;
+    top: -100%;
+    width: 100%;
+    max-height: 70%;
+    padding-top: 40px;
+    overflow-y: auto;
+
+    background-color: $colorWhite;
+    border-radius: 0 0 15px 15px;
+
+    transition: 0.3s;
+    &.--open {
+        top: 0;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+    }
+
+    &__close {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    &__clear {
+        margin-top: 20px;
+        max-width: 300px;
+    }
+    &__list {
+        border: 2px solid $colorGrey;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    &__void {
+        display: none;
+        width: 100%;
+        text-align: center;
+        &.--active {
+            display: block;
+        }
+    }
+
+    &__btn {
+        display: block;
+        margin: 30px 0 40px auto;
+        max-width: 400px;
+    }
+
+    &__product {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        padding: 10px 0;
+        border-bottom: 2px solid $colorGrey;
+        @media (max-width: 575.98px) {
+            gap: 10px;
+        }
+    }
+
+    &__img {
+        flex: 1;
+        min-height: 150px;
+        background-image: url(../img/product/lego_sw_75317.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        @media (max-width: 767.98px) {
+            min-height: 100px;
+            font-size: 13px;
+        }
+        @media (max-width: 575.98px) {
+            min-width: 100px;
+        }
+    }
+
+    &__info {
+        flex: 1; 
+        @media (max-width: 575.98px) {
+            display: none;
+        }
+    }
+
+    &__id {
+        @media (max-width: 767.98px) {
+            font-size: 13px;
+        }
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        @media (max-width: 767.98px) {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    &__price {
+        flex: 1;
+        text-align: center;
+        white-space: nowrap;
+        font-size: 20px;
+        @media (max-width: 767.98px) {
+            font-size: 16px;
+        }
+    }
+
+    &__count-wrapper {
+        display: flex;
+        * {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            
+            font-size: 20px;
+            @media (max-width: 575.98px) {
+                width: 30px;
+                height: 30px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    &__count-btn {
+        transition: 0.3s;
+
+        user-select: none;
+        cursor: pointer;
+        &:hover {
+            background-color: $colorGrey;
+        }
+    }
+
+    &__minus {
+        
+    }
+
+    &__count {
+    }
+
+    &__plus {
+    }
+
+}

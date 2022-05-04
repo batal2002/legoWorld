@@ -18,7 +18,6 @@
         max-height: 71px;
         min-height: 50px;
         min-width: 140px;
-        
     }
 
     &__wrapper {
@@ -61,7 +60,7 @@
     &__search-btn {
         position: absolute;
         right: 0;
-        background-image: url(/img/svg/search-solid.svg);
+        background-image: url(../img/svg/search-solid.svg);
         
     }
 
@@ -76,7 +75,7 @@
     &__cart {
         position: relative;
 
-        background-image: url(/img/svg/cart.svg);
+        background-image: url(../img/svg/cart.svg);
     }
 
     &__counter {
@@ -99,7 +98,7 @@
     }
 
     &__login {
-        background-image: url(/img/svg/face.svg);
+        background-image: url(../img/svg/face.svg);
     }
 
     &__form {

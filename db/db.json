@@ -7,7 +7,6 @@
             "oldPrice": 5990,
             "currentPrice": 5399,
             "sale": true,
-            "label": "normal",
             "img": "img/product/lego_t_42075.png",
             "hoverImg":"img/product/lego_t_42075_hover.png",
             "category": "Technic"
@@ -19,7 +18,6 @@
             "oldPrice": 0,
             "currentPrice": 5590,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_t_42093.png",
             "hoverImg":"img/product/lego_t_42093_hover.png",
             "category": "Technic"
@@ -31,7 +29,6 @@
             "oldPrice": 14990,
             "currentPrice":13490,
             "sale": true,
-            "label": "normal",
             "img": "img/product/lego_t_42099.png",
             "hoverImg":"img/product/lego_t_42099_hover.png",
             "category": "Technic"
@@ -43,7 +40,6 @@
             "oldPrice": 0,
             "currentPrice": 9499,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_t_42111.png",
             "hoverImg":"img/product/lego_t_42111_hover.png",
             "category": "Technic"
@@ -56,7 +52,6 @@
             "oldPrice": 0,
             "currentPrice": 32999,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_t_42115.png",
             "hoverImg":"img/product/lego_t_42115_hover.png",
             "category": "Technic"
@@ -68,7 +63,6 @@
             "oldPrice": 22329,
             "currentPrice": 14150,
             "sale": true,
-            "label": "normal",
             "img": "img/product/lego_t_42114.png",
             "hoverImg":"img/product/lego_t_42114_hover.png",
             "category": "Technic"
@@ -80,7 +74,6 @@
             "oldPrice": 0,
             "currentPrice": 74999,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sw_75313.png",
             "hoverImg":"img/product/lego_sw_75313_hover.png",
             "category": "Star Wars"
@@ -92,7 +85,6 @@
             "oldPrice": 0,
             "currentPrice": 4699,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sw_75322.png",
             "hoverImg":"img/product/lego_sw_75322_hover.png",
             "category": "Star Wars"
@@ -104,7 +96,6 @@
             "oldPrice": 0,
             "currentPrice": 6999,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sw_75304.png",
             "hoverImg":"img/product/lego_sw_75304_hover.png",
             "category": "Star Wars"
@@ -116,7 +107,6 @@
             "oldPrice": 0,
             "currentPrice": 3499,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sw_75311.png",
             "hoverImg":"img/product/lego_sw_75311_hover.png",
             "category": "Star Wars"
@@ -128,7 +118,6 @@
             "oldPrice": 1749,
             "currentPrice": 1204,
             "sale": true,
-            "label": "normal",
             "img": "img/product/lego_sw_75317.png",
             "hoverImg":"img/product/lego_sw_75317_hover.png",
             "category": "Star Wars"
@@ -140,7 +129,6 @@
             "oldPrice": 0,
             "currentPrice": 4699,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sw_75301.png",
             "hoverImg":"img/product/lego_sw_75301_hover.png",
             "category": "Star Wars"
@@ -152,7 +140,6 @@
             "oldPrice": 3599,
             "currentPrice": 2519,
             "sale": true,
-            "label": "normal",
             "img": "img/product/lego_sw_75300.png",
             "hoverImg":"img/product/lego_sw_75300_hover.png",
             "category": "Star Wars"
@@ -164,7 +151,6 @@
             "oldPrice": 0,
             "currentPrice": 1399,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sw_75267.png",
             "hoverImg":"img/product/lego_sw_75267_hover.png",
             "category": "Star Wars"
@@ -176,7 +162,6 @@
             "oldPrice": 3209,
             "currentPrice": 2144,
             "sale": true,
-            "label": "normal",
             "img": "img/product/lego_city_60139.png",
             "hoverImg":"img/product/lego_city_60139_hover.png",
             "category": "City"
@@ -188,7 +173,6 @@
             "oldPrice": 0,
             "currentPrice": 2499,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_city_60343.png",
             "hoverImg":"img/product/lego_city_60343_hover.png",
             "category": "City"
@@ -200,7 +184,6 @@
             "oldPrice": 0,
             "currentPrice": 8999,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_city_60317.png",
             "hoverImg":"img/product/lego_city_60317_hover.png",
             "category": "City"
@@ -212,7 +195,6 @@
             "oldPrice": 0,
             "currentPrice": 4999,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_city_60316.png",
             "hoverImg":"img/product/lego_city_60316_hover.png",
             "category": "City"
@@ -224,7 +206,6 @@
             "oldPrice": 4499,
             "currentPrice": 3349,
             "sale": true,
-            "label": "normal",
             "img": "img/product/lego_city_60282.png",
             "hoverImg":"img/product/lego_city_60282_hover.png",
             "category": "City"
@@ -236,7 +217,6 @@
             "oldPrice": 8999,
             "currentPrice": 7599,
             "sale": true,
-            "label": "normal",
             "img": "img/product/lego_city_60330.png",
             "hoverImg":"img/product/lego_city_60330_hover.png",
             "category": "City"
@@ -248,7 +228,6 @@
             "oldPrice": 0,
             "currentPrice": 5499,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_city_60294.png",
             "hoverImg":"img/product/lego_city_60294_hover.png",
             "category": "City"
@@ -260,7 +239,6 @@
             "oldPrice": 0,
             "currentPrice": 3699,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sh_76206.png",
             "hoverImg":"img/product/lego_sh_76206_hover.png",
             "category": "Super Heroes"
@@ -272,7 +250,6 @@
             "oldPrice": 0,
             "currentPrice": 2699,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sh_76181.png",
             "hoverImg":"img/product/lego_sh_76181_hover.png",
             "category": "Super Heroes"
@@ -284,7 +261,6 @@
             "oldPrice": 0,
             "currentPrice": 5999,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sh_76238.png",
             "hoverImg":"img/product/lego_sh_76238_hover.png",
             "category": "Super Heroes"
@@ -296,7 +272,6 @@
             "oldPrice": 6999,
             "currentPrice": 5399,
             "sale": true,
-            "label": "normal",
             "img": "img/product/lego_sh_76191.png",
             "hoverImg":"img/product/lego_sh_76191_hover.png",
             "category": "Super Heroes"
@@ -308,7 +283,6 @@
             "oldPrice": 0,
             "currentPrice": 899,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sh_76189.png",
             "hoverImg":"img/product/lego_sh_76189_hover.png",
             "category": "Super Heroes"
@@ -320,7 +294,6 @@
             "oldPrice": 0,
             "currentPrice": 21999,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sh_76240.png",
             "hoverImg":"img/product/lego_sh_76240_hover.png",
             "category": "Super Heroes"
@@ -332,7 +305,6 @@
             "oldPrice": 0,
             "currentPrice": 2699,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sh_76205.png",
             "hoverImg":"img/product/lego_sh_76205_hover.png",
             "category": "Super Heroes"
@@ -344,7 +316,6 @@
             "oldPrice": 0,
             "currentPrice": 9499,
             "sale": false,
-            "label": "normal",
             "img": "img/product/lego_sh_76156.png",
             "hoverImg":"img/product/lego_sh_76156_hover.png",
             "category": "Super Heroes"

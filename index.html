@@ -12,47 +12,44 @@
 </head>
 <body>
     <div class="overlay"></div>
+    <div class="modal__add-to-cart">
+        <span>Товар добавлен в корзину</span>
+    </div>
 
-    <nav>
+    <div class="modal__product-card"></div>
+    <section class="cart">
         <div class="container">
-            <div class="nav">
-                <div class="nav__burger">
-                    <span class="nav__span"></span>
-                </div>
-                <div class="nav__wrapper">
-                    <a href="#" class="nav__map">
-                        <img src="img/svg/map.svg" alt="geo">
-                        <span>Санкт-Петербург и ЛО</span>
-                    </a>
-                    
-                    <ul class="nav__navbar">
-                        <li><a href="#" class="nav__link">Магазины</a></li>
-                        <li><a href="#" class="nav__link">Доставка и оплата</a></li>
-                        <li><a href="#" class="nav__link">Акции</a></li>
-                        <li><a href="#" class="nav__link">Обратная связь</a></li>
-                        <li><a href="#" class="nav__link">Новинки</a></li>
-                    </ul>
+            <div class="cart__header">
+                <h3>Корзина с товарами</h3>
+                <div class="cart__close">
+                    <img src="img/svg/close.svg" alt="">
                 </div>
             </div>
+            <p>Итоговая сумма: <span class="cart__sum">0</span> ₽</p>
+            <button class="btn cart__clear">Очистить корзину</button>
+            <div class="cart__list">
+                <span class="cart__void">В данный момент корзина пуста</span>
+            </div>
+            <button class="btn cart__btn">Оформить заказ</button>
         </div>
-    </nav>
+    </section>
 
     <section class="section__hero">
         <div class="container">
             <header class="header">
-                <a href="#" class="header__logo">
+                <a href="index.html" class="header__logo"> 
                     <img src="img/svg/logo.svg" alt="LEGO WORLD">
                 </a>
                 <div class="header__wrapper">
                     <div class="header__search">
                         <input type="text" placeholder="Поиск" class="header__input" >
-                        <button href="#" class="circle-btn header__search-btn"></button>
+                        <button class="circle-btn header__search-btn"></button>
                     </div>
                     <div class="header__user">
-                        <button href="#" class="circle-btn header__cart">
+                        <button class="circle-btn header__cart">
                             <span class="header__counter">0</span>
                         </button>
-                        <button href="#" class="circle-btn header__login"></button>
+                        <button class="circle-btn header__login"></button>
                     </div>
                 </div>
                 <form class="header__form form" data-modal="login">
@@ -113,34 +110,29 @@
                         <div class="filter__section">
                             <span class="filter__title">Серия товара</span>
                             <div class="filter__list">
-                                <div class="filter__category">
+                                <div class="filter__category" data-category="Technic">
                                     <img src="img/svg/Technic_logo.svg" alt="Technic">
                                 </div>
-                                <div class="filter__category">
+                                <div class="filter__category" data-category="Star Wars">
                                     <img src="img/svg/Lego_Star_Wars_Logo.svg" alt="Star Wars">
                                 </div>
-                                <div class="filter__category">
+                                <div class="filter__category" data-category="City">
                                     <img src="img/png/Lego_City_logo.png" alt="City">
                                 </div>
-                                <div class="filter__category">
+                                <div class="filter__category" data-category="Super Heroes">
                                     <img src="img/png/LSH-Marvel-Logo-2018.png" alt="Super Heroes">
                                 </div>
-                                <div class="filter__category">
+                                <div class="filter__category" data-category="all">
                                     <button class="btn filter__btn">Все конструкторы</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="filter__section">
-                            <div class="filter__title">
-                                <span>Цена</span>
-                                <input type="text">
-                                <span>-</span>
-                                <input type="text">
-                            </div>
-                            <input type="range" min="0" max="300" value="10" class="filter__trackbar"/>
+                    </div>
+                    <div class="main__list">
+                        <div class="main__void">
+                            <span>По вашему запросу ничего не найдено</span>
                         </div>
                     </div>
-                    <div class="main__list"></div>
                 </div>
             </div>
         </div>
@@ -174,16 +166,9 @@
             </div>
         </div>
     </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

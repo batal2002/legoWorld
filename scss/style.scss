@@ -1,9 +1,10 @@
 @import 'variables';
 @import 'fonts';
 @import 'global';
+@import 'main-page/cart';
+@import 'main-page/modal';
 @import 'main-page/header';
 @import 'main-page/form';
-@import 'main-page/nav';
 @import 'main-page/hero';
 @import 'main-page/slider';
 @import 'main-page/slick';
@@ -11,5 +12,4 @@
 @import 'main-page/filter';
 @import 'main-page/sort';
 @import 'main-page/footer';
-
-@import 'product/product';
+@import 'main-page/product';
